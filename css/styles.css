@@ -304,7 +304,9 @@ color: #404bbf;
 /*Секція 1*/
 .hero {
     background-color: #2e2f42;
-    background-image:linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), image-set(url(../images/Dark-bg.png) 1x, url(../images/Dark-bg_2x.png) 2x);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+        image-set(url(../images/mobile/Dark-bg_mobile.jpg) 1x, url(../images/mobile/Dark-bg_mobile@2x.jpg) 2x);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -346,6 +348,9 @@ color: #404bbf;
   .hero {
     padding-top: 112px;
     padding-bottom: 112px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+        image-set(url(../images/tablet/dark-bg_tablet.jpg) 1x, url(../images/tablet/dark-bg_tablet@2x.jpg) 2x);
   }
   .hero-title {
     max-width: 496px;
@@ -358,6 +363,9 @@ color: #404bbf;
     padding-top: 188px;
     padding-bottom: 188px;
     max-width: 1440px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+        image-set(url(../images/desktop/people-office_dex.jpg) 1x, url(../images/desktop/people-office_dex.jpg) 2x);
   }
 }
 /* Секція 1 кінець*/
